@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>caraft List</title>
+</head>
+<body>
+    <h1>caraft List</h1>
+    <ul>
+        {% for caraft in object_list %}
+        <li>
+            <h2>{{ caraft.name }}</h2>
+
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
